@@ -32,6 +32,7 @@ namespace Movie_Lab.Controllers
         {
            var movieTitle = await _movieService.GetMovieTitle(Title);
            var model = new MovieViewModel();
+           model.Title = movieTitle;
            return View(model);
         }
 

@@ -1,4 +1,6 @@
-﻿namespace Movie_Lab.Services
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Movie_Lab.Services
 {
     public class MovieService
     {
@@ -12,7 +14,7 @@
         public async Task<string> GetMovieTitle(string userInput)
         {
             var httpResponseMessage = await _client.GetAsync(userInput);
-            if (httpResponseMessage.IsSuccessStatusCode)
+            if (!httpResponseMessage.IsSuccessStatusCode)
             {
                 var movie = await httpResponseMessage.Content.ReadFromJsonAsync<Movie>();
 
