@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Movie_Lab.Services.Movie>
+
+@{
+    ViewData["Title"] = "MovieNight";
+}
+
+<h1>Movie Night!</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Released)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actors)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Director)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Poster)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Released)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actors)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Director)
+            </td>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.Poster)">
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div>
+    <a asp-action="MovieNightForm">Search Again</a>
+</div>
+<div>
+    <a asp-action="Index">Home</a>
+</div>

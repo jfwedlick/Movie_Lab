@@ -12,7 +12,7 @@ namespace Movie_Lab
             builder.Services.AddControllersWithViews();
             builder.Services.AddHttpClient<MovieService>(client =>
             {
-                client.BaseAddress = new Uri("http://www.omdbapi.com/?apikey=2a11dd5f&t=");
+                client.BaseAddress = new Uri("http://www.omdbapi.com/");
             });
 
             var app = builder.Build();

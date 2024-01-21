@@ -16,20 +16,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Jake\class-dev\Projects\Movie_Lab
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Home/MovieNight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3ZpZU5pZ2h0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Home/MovieNightSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3ZpZU5pZ2h0U2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Home/MovieSearch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3ZpZVNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Home/MovieSearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3ZpZVNlYXJjaFJlc3VsdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/MovieSearchResults.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVTZWFyY2hSZXN1bHRzLmNzaHRtbA==
+[C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jake/class-dev/Projects/Movie_Lab/Views/Shared/Error.cshtml]
